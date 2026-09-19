@@ -324,7 +324,7 @@ if __name__ == "__main__":
             _check_item = datas.get("MIMOTION", [])[i]
             #print(_check_item)
             msg += MiMotion(check_item=_check_item).main()
-            time.sleep(random.randint(30, 90)) 
+            time.sleep(10) 
         #print(msg)
         # 酷推skey和server酱sckey和企业微信设置，只用填一个其它留空即可
         if datas.get("SKEY"):
